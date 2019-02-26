@@ -1,10 +1,9 @@
-package cn.yyff.tax.shop.bean;
+package cn.yyff.tax.cxf.bean;
 
 public class User {
     private int id;
     private String name;
     private int age;
-    private Address address;
 
     @Override
     public String toString() {
@@ -12,7 +11,6 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", address=" + address +
                 '}';
     }
 
@@ -40,11 +38,5 @@ public class User {
         this.age = age;
     }
 
-    public Address getAddress() {
-        return address;
-    }
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 }

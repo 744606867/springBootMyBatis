@@ -1,12 +1,11 @@
-package cn.yyff.tax.shop;
+package cn.yyff.tax.cxf;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication()
-@MapperScan("cn.yyff.tax.shop.dao")
+@MapperScan("cn.yyff.tax.cxf.dao")
 public class ShopApplication {
 
     public static void main(String[] args) {

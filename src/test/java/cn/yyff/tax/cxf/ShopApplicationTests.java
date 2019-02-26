@@ -1,4 +1,4 @@
-package cn.yyff.tax.shop;
+package cn.yyff.tax.cxf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

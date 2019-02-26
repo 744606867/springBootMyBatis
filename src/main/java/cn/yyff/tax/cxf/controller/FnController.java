@@ -1,7 +1,7 @@
-package cn.yyff.tax.shop.controller;
+package cn.yyff.tax.cxf.controller;
 
-import cn.yyff.tax.shop.bean.User;
-import cn.yyff.tax.shop.service.UserService;
+import cn.yyff.tax.cxf.bean.User;
+import cn.yyff.tax.cxf.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

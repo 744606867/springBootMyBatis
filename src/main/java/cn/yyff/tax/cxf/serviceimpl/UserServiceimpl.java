@@ -1,8 +1,8 @@
-package cn.yyff.tax.shop.serviceimpl;
+package cn.yyff.tax.cxf.serviceimpl;
 
-import cn.yyff.tax.shop.bean.User;
-import cn.yyff.tax.shop.dao.UserDao;
-import cn.yyff.tax.shop.service.UserService;
+import cn.yyff.tax.cxf.bean.User;
+import cn.yyff.tax.cxf.dao.UserDao;
+import cn.yyff.tax.cxf.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

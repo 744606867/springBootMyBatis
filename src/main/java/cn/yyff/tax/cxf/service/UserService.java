@@ -1,6 +1,6 @@
-package cn.yyff.tax.shop.service;
+package cn.yyff.tax.cxf.service;
 
-import cn.yyff.tax.shop.bean.User;
+import cn.yyff.tax.cxf.bean.User;
 
 import java.util.List;
 
