@@ -21,7 +21,8 @@ public class FnController {
         return user;
     }
 
-    @RequestMapping("/cc")
+
+    @RequestMapping("/bb")
     public List<User> fun2() {
         List<User> users = userService.findALL();
 
