@@ -22,7 +22,7 @@ public class FnController {
     }
 
 
-    @RequestMapping("/aa")
+    @RequestMapping("/bb")
     public List<User> fun2() {
         List<User> users = userService.findALL();
 
