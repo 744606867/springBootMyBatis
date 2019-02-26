@@ -1,5 +1,6 @@
 #默认使用配置
 spring:
+  port: 9090
   profiles:
     active: dev
 
