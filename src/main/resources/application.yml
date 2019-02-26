@@ -1,5 +1,6 @@
 #默认使用配置
 spring:
+  port: 8180
   profiles:
     active: dev
 
